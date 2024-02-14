@@ -1,0 +1,63 @@
+.detailContainer {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+@media (min-width: 601px) {
+  .detailContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+.showSmall {
+  display: block;
+}
+
+.hideSmall {
+  display: none;
+}
+
+@media (min-width: 601px) {
+  .hideSmall {
+    display: block;
+  }
+
+  .showSmall {
+    display: none;
+  }
+}
+
+.detailImage {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.detailText {
+  color: #333;
+  margin: 5px 0;
+}
+
+.pokemonStats {
+  width: 80%;
+  background-color: #f0f0f8;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pokemonInfo,
+.evolutionChain {
+  flex: 1;
+}

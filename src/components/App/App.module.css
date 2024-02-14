@@ -1,0 +1,19 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+}
+
+.App-header {
+  background-color: #ffcb05; /* Pikachu yellow */
+  color: #3b4cca; /* Pokédex blue */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
